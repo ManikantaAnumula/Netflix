@@ -13,11 +13,40 @@
     <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico">
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/netflix-font">
     <link rel="stylesheet" href="customStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
 
 <body>
-    <h1 style="font-weight: bold;">Netflix</h1>
-
+    <div class="upper-wrappper">
+        <header class="container-fluid p-0" style="height: 120px;">
+            <div class="container pb-4 pt-2">
+                <div class="row align-items-center">
+                    <div class="col-sm-4 ps-sm-0 ps-5">
+                        <div class="container d-flex justify-content-sm-start justify-content-center ps-0">
+                            <div class="navlogo" style="height:5rem; width: 20rem;;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="container d-flex justify-content-sm-end justify-content-center">
+                            <div class="translate-container me-3 rounded px-2" style="border: 1px solid lightgray;">
+                                <!-- <span role="img">
+                                    <img src="Images/translate_img.png" alt="translateimage"
+                                        style="height: 1rem; width: 1rem;">
+                                </span> -->
+                                <select name="translate" id="translate" class="btn text-white fw-200"
+                                    style="height: 100%;">
+                                    <option value="English" selected class="text-dark">English</option>
+                                    <option value="Hindi" class="text-dark">Hindi</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn bg-netflix fw-bold">Sign in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
