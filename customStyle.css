@@ -7,9 +7,11 @@
 .bg-netflix {
     background-color: rgb(229, 9, 20);
     color: white;
+    font-weight: bold;
 }
 
-.bg-netflix:hover {
+.bg-netflix:hover,
+.bg-netflix:focus {
     background-color: rgb(192, 9, 19);
     color: white;
 }
@@ -23,7 +25,7 @@ body {
 .upper-wrappper {
     position: relative;
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 60%);
 }
 
 .upper-wrappper::before {
@@ -39,7 +41,7 @@ body {
     background-repeat: no-repeat;
     /* background-attachment: scroll; This is anyways default : scroll*/
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .upper-wrappper .container {
@@ -51,5 +53,65 @@ body {
     background-image: url(Images/NavLogo-Photoroom.png);
     background-size: cover;
     background-position: center;
+    height: 5rem;
+    width: 20rem;
+}
 
+
+.emailinput {
+    color: white;
+    background-color: rgba(22, 22, 22, 0.7);
+}
+
+.herotitle {
+    width: 40vw;
+}
+
+.herotitle h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.herotitle p {
+    font-size: 22px;
+    font-weight: 200 !important;
+}
+
+#getStartedBtn {
+    font-size: 1.2rem;
+}
+
+#getStartedBtn:active,
+#signinbtn:active {
+    background-color: rgb(192, 9, 19);
+    color: white;
+}
+
+.form-control {
+    background-color: transparent !important;
+    padding-top: 0.1rem;
+    line-height: 1.5rem;
+    color: darkgray;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 3px solid white;
+}
+
+.form-floating label::after {
+    background-color: transparent !important;
+}
+
+#floatinglabel {
+    color: darkgray !important;
+}
+
+.card-body p {
+    font-weight: 500 !important;
+    font-size: 1.5rem;
+}
+
+.homeform .row {
+    height: 4rem;
 }
