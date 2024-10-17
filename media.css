@@ -1,0 +1,65 @@
+@media screen and (max-width:1200px) {
+
+    #getStartedBtn {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #getStartedBtn {
+        font-size: 0.9rem;
+    }
+
+    .herotitle {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero-content {
+        width: 100vw !important;
+        height: 80vh !important;
+    }
+
+    .herotitle h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .herotitle p {
+        font-size: 18px;
+        font-weight: 200 !important;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .hero-content {
+        width: 90vw !important;
+    }
+
+    .herotitle h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .herotitle p {
+        font-size: 15px;
+        font-weight: 100 !important;
+    }
+
+    .navbarrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #signinbtn,
+    #translate {
+        font-size: 0.6rem;
+    }
+
+    .translate-container {
+        margin-right: 0.6rem;
+    }
+}
