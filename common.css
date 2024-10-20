@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.bg-netflix {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: bold;
+}
+
+.bg-netflix:hover,
+.bg-netflix:focus {
+    background-color: rgb(192, 9, 19);
+    color: white;
+}
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+
+.upper-wrappper .container {
+    position: relative;
+    z-index: 1;
+}
+
+.navlogo {
+    background-image: url(Images/NavLogo-Photoroom.png);
+    background-size: cover;
+    background-position: center;
+    height: 5rem;
+    width: 20rem;
+}
+
+
+.form-control {
+    background-color: transparent !important;
+    padding-top: 0.1rem;
+    line-height: 1.5rem;
+    color: darkgray;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2.5px solid white !important;
+}
+
+.form-floating label::after {
+    background-color: transparent !important;
+}
+
+#floatinglabel {
+    color: darkgray !important;
+}
+
+/* .netflix-dropdown select {
+    -webkit-appearance: none;
+} */
+
+
+.netflix-dropdown {
+    color: white;
+
+}
+
+.trending-sort {
+    box-sizing: border-box !important;
+}
+
+.netflix-dropdown select {
+    box-sizing: border-box !important;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    background: black;
+    font-weight: bold;
+}
+
+.netflix-dropdown select:focus {
+    outline: 2px solid white;
+}
+
+.netflix-dropdown select option {
+    background-color: white;
+    color: black;
+}
+
+.accordion-header button,
+.accordion-body {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 1.5rem;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: rgb(45, 45, 45);
+    box-shadow: none;
+    border-bottom: 2px solid black;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+.faqs h1 {
+    font-size: 2rem;
+}
+
+.footer-items ul {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-items li {
+    list-style-type: none;
+    margin-top: 1rem;
+    width: auto;
+    margin-left: 1rem;
+}
+
+.footer-items li a,
+.foot-net,
+.quick-call,
+.quick-call a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+}

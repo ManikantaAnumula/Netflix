@@ -13,10 +13,19 @@ Array.from(forms).forEach(form => {
     }, false)
 })
 
+const accord = document.querySelector('.accordion-header button')
+
+if (!accord.classList.contains('collapsed')) {
+    accord.style.backgroundColor = "rgb(91, 88, 88)";
+}
+
 const startbtn = document.querySelector('#getStartedBtn');
 const emailinput = document.querySelector('.emailinput input')
 
-//For focusing the email input if submitted empty.
+const startbtnEnd = document.querySelector('#getStartedBtn-end');
+const emailinputEnd = document.querySelector('#homeform-end input')
+
+//For focusing the email input if submitted empty - START
 startbtn.addEventListener('click', (evt) => {
     if (emailinput.value === "") {
         evt.preventDefault()
@@ -24,3 +33,10 @@ startbtn.addEventListener('click', (evt) => {
     }
 })
 
+//For focusing the email input if submitted empty - END
+startbtnEnd.addEventListener('click', (evt) => {
+    if (emailinputEnd.value === "") {
+        evt.preventDefault()
+        emailinputEnd.focus();
+    }
+})

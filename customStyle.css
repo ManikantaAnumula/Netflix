@@ -1,30 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, sans-serif;
-}
-
-.bg-netflix {
-    background-color: rgb(229, 9, 20);
-    color: white;
-    font-weight: bold;
-}
-
-.bg-netflix:hover,
-.bg-netflix:focus {
-    background-color: rgb(192, 9, 19);
-    color: white;
-}
-
-body {
-    background-color: black;
-    position: relative;
-    height: 2000px;
-}
-
 .upper-wrappper {
     position: relative;
-    height: 100vh;
+    height: 95vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 60%);
 }
 
@@ -43,20 +19,6 @@ body {
     z-index: -1;
     opacity: 0.5;
 }
-
-.upper-wrappper .container {
-    position: relative;
-    z-index: 1;
-}
-
-.navlogo {
-    background-image: url(Images/NavLogo-Photoroom.png);
-    background-size: cover;
-    background-position: center;
-    height: 5rem;
-    width: 20rem;
-}
-
 
 .emailinput {
     color: white;
@@ -87,26 +49,6 @@ body {
     color: white;
 }
 
-.form-control {
-    background-color: transparent !important;
-    padding-top: 0.1rem;
-    line-height: 1.5rem;
-    color: darkgray;
-}
-
-.form-control:focus {
-    box-shadow: none;
-    border: 3px solid white;
-}
-
-.form-floating label::after {
-    background-color: transparent !important;
-}
-
-#floatinglabel {
-    color: darkgray !important;
-}
-
 .card-body p {
     font-weight: 500 !important;
     font-size: 1.5rem;
@@ -115,3 +57,35 @@ body {
 .homeform .row {
     height: 4rem;
 }
+
+
+/* Trending Sort Section */
+.trend-content img {
+    width: 180px;
+    height: 252px;
+    border-radius: 1rem;
+}
+
+.trend-content .col {
+    position: relative;
+    padding: 0.4rem 1.3rem;
+    z-index: 1;
+}
+
+/* .trend-content .col:hover {
+  transform: scale(1.1);
+  
+} */
+.trend-content .numbering {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+/* .container::-webkit-scrollbar {
+    display: none;
+} */
+
