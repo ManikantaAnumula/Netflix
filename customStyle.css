@@ -64,18 +64,22 @@
     width: 180px;
     height: 252px;
     border-radius: 1rem;
+
 }
+
 
 .trend-content .col {
     position: relative;
-    padding: 0.4rem 1.3rem;
+    padding: 0.6rem 1.3rem;
     z-index: 1;
+    transition: transform 0.4s;
 }
 
-/* .trend-content .col:hover {
-  transform: scale(1.1);
-  
-} */
+
+.trend-content .col:hover {
+    transform: scale(1.06);
+}
+
 .trend-content .numbering {
     position: absolute;
     z-index: 2;
@@ -89,3 +93,7 @@
     display: none;
 } */
 
+.trend-content {
+    overflow-x: auto;
+    overflow-y: hidden;
+}

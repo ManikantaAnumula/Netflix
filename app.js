@@ -40,3 +40,6 @@ startbtnEnd.addEventListener('click', (evt) => {
         emailinputEnd.focus();
     }
 })
+
+
+const navlink = document.querySelector('.singinform .navlogo');
